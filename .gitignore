@@ -1,0 +1,5 @@
+.DS_Store
+### Code ###
+# Visual Studio Code - https://code.visualstudio.com/
+.settings/
+.vscode/
