@@ -192,7 +192,7 @@
             }
 
             if ( $().fitText ) {
-                $("#hero-section .hero-title h1").fitText(1.8, {
+                $("#hero-section .hero-title h2").fitText(1.8, {
                     minFontSize: '20px',
                     maxFontSize: '52px'
                 });
@@ -202,7 +202,7 @@
             current = 1,
             height = $('.hero-title').height(),
             numberDivs = $('.hero-title').children().length,
-            first = $('.hero-title h1:nth-child(1)');
+            first = $('.hero-title h2:nth-child(1)');
 
             setInterval(function() {
                 var number = current * -height;
